@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#071b2b">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="description" content="Lái Xe Hộ Nha Trang – dịch vụ tài xế riêng tại Nha Trang, lái xe hộ tại nhà, theo giờ, theo ngày, đường dài và sân bay Cam Ranh. Gọi 0987 514 878 hoặc Zalo 0888 236 364.">
+<link rel="canonical" href="https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lái Xe Hộ Nha Trang | Tài xế riêng 24/7">
+<meta property="og:description" content="Bình an – Uy tín – Trách nhiệm. Đặt tài xế nhanh tại Nha Trang.">
+<meta property="og:url" content="https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/">
+<meta property="og:image" content="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?q=85&w=1600">
+<meta name="twitter:card" content="summary_large_image">
+<title>Lái Xe Hộ Nha Trang | Đặt tài xế riêng 24/7</title>
+
+<!-- Google Search: Organization + LocalBusiness schema.
+     Khi có tên miền và địa chỉ chính xác, thay example.com và bổ sung địa chỉ thật. -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"Lái Xe Hộ Nha Trang",
+  "description":"Dịch vụ lái xe hộ, tài xế riêng, theo giờ/ngày, đường dài và sân bay tại Nha Trang.",
+  "telephone":"+84987514878",
+  "url":"https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/",
+  "image":"https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?q=85&w=1600",
+  "areaServed":[{"@type":"City","name":"Nha Trang"},{"@type":"Place","name":"Cam Ranh"}],
+  "openingHours":"Mo-Su 00:00-23:59",
+  "priceRange":"150000-2500000 VND"
+}
+
+const menuToggle=document.querySelector('.menu-toggle');
+const mobileNav=document.getElementById('mobileNav');
+if(menuToggle && mobileNav){
+  menuToggle.addEventListener('click',()=>{
+    const open=mobileNav.classList.toggle('open');
+    menuToggle.setAttribute('aria-expanded',String(open));
+    mobileNav.setAttribute('aria-hidden',String(!open));
+  });
+  mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+    mobileNav.classList.remove('open');
+    menuToggle.setAttribute('aria-expanded','false');
+    mobileNav.setAttribute('aria-hidden','true');
+  }));
+}
+
+</script>
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"Service",
+ "name":"Dịch vụ lái xe hộ Nha Trang",
+ "provider":{"@type":"LocalBusiness","name":"Lái Xe Hộ Nha Trang"},
+ "areaServed":{"@type":"City","name":"Nha Trang"},
+ "serviceType":"Designated driver service"
+}
+</script>
+
+<style>
+:root{
+ --navy:#071b2b;--navy2:#0b2d43;--gold:#d6a84f;--gold2:#f1cf82;
+ --cream:#f7f4ed;--white:#fff;--ink:#14212b;--muted:#667784;
+ --line:#e8e2d7;--green:#16a34a;--blue:#0068ff;
+ --shadow:0 18px 50px rgba(7,27,43,.12)
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:#fff;color:var(--ink);line-height:1.6}
+a{text-decoration:none;color:inherit}
+img{display:block;max-width:100%}
+.container{width:min(1180px,calc(100% - 34px));margin:auto}
+.top-strip{background:var(--navy);color:#dbe7ee;font-size:12px;padding:7px 0}
+.top-strip .container{display:flex;justify-content:space-between;gap:15px}
+header{position:sticky;top:0;z-index:1000;background:rgba(7,27,43,.96);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.08)}
+.navbar{height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px;color:#fff}
+.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.3px}
+.brand svg{width:49px;height:49px;flex:none}
+.brand small{display:block;color:#b9c8d1;font-size:10px;letter-spacing:1.7px;font-weight:600}
+.nav{display:flex;gap:24px;font-size:13px;font-weight:700}
+.nav a{color:#e5edf2}.nav a:hover{color:var(--gold2)}
+.nav-cta{background:var(--gold);color:var(--navy);padding:11px 17px;border-radius:999px;font-weight:900;white-space:nowrap}
+.hero{position:relative;min-height:690px;display:flex;align-items:center;overflow:hidden;color:#fff;background:
+linear-gradient(90deg,rgba(7,27,43,.96) 0%,rgba(7,27,43,.86) 38%,rgba(7,27,43,.30) 72%,rgba(7,27,43,.18) 100%),
+url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=85&w=2200') center/cover}
+.hero-inner{padding:88px 0;display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center}
+.eyebrow{color:var(--gold2);font-weight:800;letter-spacing:2.5px;text-transform:uppercase;font-size:12px}
+h1{font-family:Georgia,serif;font-size:clamp(42px,6vw,72px);line-height:1.03;margin:14px 0}
+.hero h1 span{color:var(--gold2)}
+.hero-copy{font-size:18px;color:#dbe7ee;max-width:620px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 20px;border-radius:10px;font-weight:900;border:1px solid transparent;transition:.2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-gold{background:var(--gold);color:var(--navy)}
+.btn-dark{background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.28);color:#fff}
+.btn-blue{background:var(--blue);color:#fff}
+.trust{display:flex;flex-wrap:wrap;gap:15px;margin-top:22px;color:#dbe7ee;font-size:12px}
+.trust b{color:#fff}
+.booking{background:rgba(255,255,255,.97);color:var(--ink);border-radius:22px;padding:27px;box-shadow:0 25px 65px rgba(0,0,0,.27);border:1px solid rgba(255,255,255,.5)}
+.booking h2{font-family:Georgia,serif;font-size:30px;color:var(--navy);margin-bottom:5px}
+.booking .sub{font-size:13px;color:var(--muted);margin-bottom:18px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field.full{grid-column:1/-1}
+label{font-size:11px;font-weight:900;color:#455866;text-transform:uppercase;letter-spacing:.7px}
+input,select,textarea{width:100%;border:1px solid #d8e0e5;border-radius:10px;padding:12px 13px;font:inherit;font-size:14px;background:#fff;outline:none}
+input:focus,select:focus,textarea:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(214,168,79,.13)}
+textarea{min-height:80px;resize:vertical}
+.form-btn{width:100%;margin-top:14px;border:0;cursor:pointer;font-size:15px}
+.form-note{font-size:11px;color:var(--muted);margin-top:9px;text-align:center}
+.stats{margin-top:-35px;position:relative;z-index:3}
+.stats-box{background:#fff;box-shadow:var(--shadow);border-radius:18px;display:grid;grid-template-columns:repeat(4,1fr);overflow:hidden}
+.stat{padding:22px;text-align:center;border-right:1px solid var(--line)}
+.stat:last-child{border:0}.stat strong{display:block;font-family:Georgia,serif;font-size:27px;color:var(--navy)}.stat span{font-size:12px;color:var(--muted)}
+section{padding:82px 0}
+.section-title{text-align:center;max-width:760px;margin:0 auto 38px}
+.section-title .eyebrow{color:#a27a26}.section-title h2{font-family:Georgia,serif;font-size:clamp(30px,4vw,43px);color:var(--navy);margin:7px 0}.section-title p{color:var(--muted)}
+.services{background:var(--cream)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 8px 30px rgba(7,27,43,.06)}
+.card img{height:210px;width:100%;object-fit:cover}
+.card-body{padding:22px}.card h3{font-family:Georgia,serif;font-size:23px;color:var(--navy);margin-bottom:7px}.card p{color:var(--muted);font-size:14px}.tag{display:inline-block;margin-top:15px;padding:7px 11px;border-radius:999px;background:#fbf5e8;color:#8a651e;font-size:12px;font-weight:900}
+.price-section{background:#fff}
+.price-wrap{display:grid;grid-template-columns:1fr .7fr;gap:22px;align-items:stretch}
+.table-box,.promise{background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 8px 30px rgba(7,27,43,.05);overflow:hidden}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:15px 17px;border-bottom:1px solid var(--line);text-align:left}th{background:var(--navy);color:#fff}tr:last-child td{border:0}.promise{background:var(--navy);color:#fff;padding:27px}.promise h3{font-family:Georgia,serif;font-size:28px;color:var(--gold2);margin-bottom:12px}.promise li{list-style:none;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.12);font-size:14px}.promise li:last-child{border:0}
+.map-section{background:#f8fafb}
+.map-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:22px;align-items:stretch}
+.info-box{background:var(--navy);color:#fff;border-radius:20px;padding:28px}.info-box h3{font-family:Georgia,serif;font-size:30px;color:var(--gold2)}.info-box p{color:#cbd8df;margin:9px 0 20px;font-size:14px}.area-list{display:flex;flex-wrap:wrap;gap:8px}.area-list span{padding:7px 10px;border:1px solid rgba(255,255,255,.15);border-radius:999px;font-size:12px;color:#e7eef2}
+.map{border-radius:20px;overflow:hidden;min-height:390px;box-shadow:var(--shadow);background:#ddd}.map iframe{width:100%;height:100%;min-height:390px;border:0}
+.reviews{background:#fff}
+.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.review{background:#f8fafb;border:1px solid #e7edf0;border-radius:16px;padding:20px}.stars{color:#d99c20;letter-spacing:2px}.review p{font-size:14px;color:#40515d;margin:8px 0}.review b{font-size:13px;color:var(--navy)}
+.faq{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 20px}summary{font-weight:900;color:var(--navy);cursor:pointer}details p{color:var(--muted);font-size:14px;margin-top:8px}
+.final-cta{background:linear-gradient(120deg,#071b2b,#0b344c);color:#fff;text-align:center}.final-cta h2{font-family:Georgia,serif;font-size:clamp(32px,5vw,50px);color:var(--gold2)}.final-cta p{color:#cbd8df;margin:10px auto 22px;max-width:650px}
+footer{background:#04121e;color:#9fb0ba;padding:28px 0;font-size:12px}.footer-grid{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer-brand{color:#fff;font-weight:900}
+.float{position:fixed;right:16px;bottom:16px;z-index:1100;display:flex;flex-direction:column;gap:10px}.fab{width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 9px 26px rgba(0,0,0,.25);font-weight:900}.fab.call{background:#ef4444;color:#fff;font-size:23px}.fab.zalo{background:#fff;color:#0068ff;border:2px solid #0068ff;font-size:11px}
+.toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:var(--navy);color:#fff;padding:12px 16px;border-radius:10px;font-size:13px;z-index:2000;transition:.25s}.toast.show{opacity:1;transform:translate(-50%,0)}
+@media(max-width:950px){
+ .nav{display:none}.hero{min-height:auto}.hero-inner{grid-template-columns:1fr;padding:60px 0}.booking{max-width:650px}.stats-box{grid-template-columns:repeat(2,1fr)}.stat:nth-child(2){border-right:0}.stat:nth-child(n+3){border-top:1px solid var(--line)}
+ .cards,.review-grid{grid-template-columns:1fr}.price-wrap,.map-grid{grid-template-columns:1fr}.map{min-height:320px}
+}
+@media(max-width:600px){
+ .top-strip{display:none}.navbar{height:66px}.brand svg{width:43px}.brand{font-size:14px}.nav-cta{padding:9px 12px;font-size:12px}
+ .hero-inner{padding:45px 0}.hero h1{font-size:45px}.hero-copy{font-size:16px}.actions .btn{width:100%}.booking{padding:20px}.booking h2{font-size:26px}
+ .form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}section{padding:60px 0}.stats{margin-top:-20px}.stat{padding:16px 8px}.stat strong{font-size:22px}
+ .price-wrap{font-size:13px}.footer-grid{flex-direction:column;text-align:center}.float{right:12px;bottom:12px}
+}
+
+/* GitHub Pages / mobile accessibility enhancements */
+.skip-link{position:fixed;left:12px;top:-60px;z-index:3000;background:#fff;color:var(--navy);padding:10px 14px;border-radius:8px;font-weight:800;transition:.2s}
+.skip-link:focus{top:12px}
+.menu-toggle{display:none;background:transparent;border:1px solid rgba(255,255,255,.22);color:#fff;border-radius:10px;padding:9px 11px;font-size:20px;cursor:pointer}
+.mobile-nav{display:none}
+@media(max-width:950px){
+ .menu-toggle{display:block}
+ .navbar{position:relative}
+ .nav-cta{margin-left:auto}
+ .mobile-nav{position:absolute;left:0;right:0;top:100%;display:none;background:rgba(7,27,43,.98);border-top:1px solid rgba(255,255,255,.08);box-shadow:0 15px 35px rgba(0,0,0,.22);padding:10px 17px 16px}
+ .mobile-nav.open{display:grid;gap:3px}
+ .mobile-nav a{color:#fff;padding:12px 10px;border-radius:8px;font-weight:800}
+ .mobile-nav a:hover{background:rgba(255,255,255,.08);color:var(--gold2)}
+}
+@media(max-width:600px){
+ .nav-cta{font-size:11px}
+ .menu-toggle{order:2}
+ .nav-cta{order:3}
+ .brand{order:1}
+}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+
+</style>
+</head>
+<body>
+<a class="skip-link" href="#top">Bỏ qua đến nội dung chính</a>
+
+<div class="top-strip"><div class="container"><span>✦ Dịch vụ lái xe hộ tại Nha Trang</span><span>Phục vụ theo lịch · Gọi trước để xác nhận tài xế</span></div></div>
+
+<header>
+ <div class="container navbar">
+  <a class="brand" href="#top" aria-label="Lái Xe Hộ Nha Trang">
+   <svg viewBox="0 0 64 64" role="img" aria-label="Logo Lái Xe Hộ Nha Trang">
+    <circle cx="32" cy="32" r="29" fill="none" stroke="#d6a84f" stroke-width="2"/>
+    <path d="M15 39h34l-3-10c-.6-2-2.2-3.2-4.3-3.2H22.3c-2.1 0-3.7 1.2-4.3 3.2L15 39Z" fill="#d6a84f"/>
+    <path d="M19 39v6M45 39v6M21 34h22" stroke="#071b2b" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="22" cy="40" r="3" fill="#071b2b"/><circle cx="42" cy="40" r="3" fill="#071b2b"/>
+    <path d="M25 22c2-5 12-5 14 0" fill="none" stroke="#d6a84f" stroke-width="2"/>
+   </svg>
+   <span>LÁI XE HỘ NHA TRANG<small>BÌNH AN · UY TÍN · TRÁCH NHIỆM</small></span>
+  </a>
+  <nav class="nav">
+   <a href="#dichvu">Dịch vụ</a><a href="#gia">Bảng giá</a><a href="#khuvuc">Khu vực</a><a href="#danhgia">Đánh giá</a><a href="#faq">FAQ</a>
+  </nav>
+  <a class="nav-cta" href="#datxe">ĐẶT TÀI XẾ NGAY</a>
+ </div>
+</header>
+
+<main id="top">
+<section class="hero">
+ <div class="container hero-inner">
+  <div>
+   <div class="eyebrow">Tài xế riêng · Nha Trang</div>
+   <h1>LÁI XE HỘ<br><span>CHUYÊN NGHIỆP</span></h1>
+   <p class="hero-copy">Bạn chỉ cần tận hưởng chuyến đi. Việc lái xe cứ để chúng tôi. Nhận lái xe hộ tại nhà, theo giờ, theo ngày, đường dài và đưa đón sân bay.</p>
+   <div class="actions">
+    <a class="btn btn-gold" href="tel:0987514878">📞 GỌI 0987 514 878</a>
+    <a class="btn btn-blue" href="https://zalo.me/0888236364">💬 NHẮN ZALO</a>
+    <a class="btn btn-dark" href="#datxe">✦ ĐẶT TÀI XẾ NGAY</a>
+   </div>
+   <div class="trust"><span>✓ <b>Minh bạch giá</b></span><span>✓ <b>Phục vụ 24/7</b></span><span>✓ <b>Đặt lịch nhanh</b></span></div>
+  </div>
+
+  <div class="booking" id="datxe">
+   <h2>Đặt tài xế ngay</h2>
+   <div class="sub">Điền thông tin, bấm gửi — điện thoại sẽ mở sẵn nội dung để anh/chị gửi yêu cầu qua Zalo.</div>
+   <form id="bookingForm">
+    <div class="form-grid">
+     <div class="field"><label>Họ tên</label><input id="name" required placeholder="Nguyễn Văn A"></div>
+     <div class="field"><label>Số điện thoại</label><input id="phone" required type="tel" placeholder="09xx xxx xxx"></div>
+     <div class="field"><label>Ngày đi</label><input id="date" required type="date"></div>
+     <div class="field"><label>Giờ đón</label><input id="time" required type="time"></div>
+     <div class="field"><label>Dịch vụ</label><select id="service"><option>Lái xe hộ tại nhà</option><option>Lái xe theo giờ</option><option>Lái xe theo ngày</option><option>Đường dài / đi tỉnh</option><option>Sân bay Cam Ranh</option></select></div>
+     <div class="field"><label>Số khách</label><select id="people"><option>1 người</option><option>2 người</option><option>3–4 người</option><option>Trên 4 người</option></select></div>
+     <div class="field full"><label>Điểm đón / điểm đến</label><input id="route" required placeholder="Ví dụ: Vĩnh Hải → Lộc Thọ"></div>
+     <div class="field full"><label>Ghi chú</label><textarea id="note" placeholder="Loại xe, thời gian chờ, hành lý..."></textarea></div>
+    </div>
+    <button class="btn btn-gold form-btn" type="submit">💬 GỬI YÊU CẦU QUA ZALO</button>
+    <div class="form-note">Hoặc gọi trực tiếp 0987 514 878 để được xác nhận nhanh.</div>
+   </form>
+  </div>
+ </div>
+</section>
+
+<div class="stats"><div class="container stats-box">
+ <div class="stat"><strong>24/7</strong><span>Thời gian tiếp nhận</span></div>
+ <div class="stat"><strong>5+</strong><span>Nhóm dịch vụ</span></div>
+ <div class="stat"><strong>2</strong><span>Số điện thoại liên hệ</span></div>
+ <div class="stat"><strong>Zalo</strong><span>Đặt lịch thuận tiện</span></div>
+</div></div>
+
+<section id="dichvu" class="services">
+ <div class="container">
+  <div class="section-title"><div class="eyebrow">DỊCH VỤ</div><h2>Đi đâu cũng có tài xế đồng hành</h2><p>Thiết kế lại từ website gốc theo phong cách dịch vụ cao cấp, ưu tiên đặt xe nhanh trên điện thoại.</p></div>
+  <div class="cards">
+   <article class="card"><img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=85&w=1000" alt="Dịch vụ lái xe hộ tại nhà" loading="lazy"><div class="card-body"><h3>🏠 Lái xe hộ tại nhà</h3><p>Đưa bạn và xe về tận nhà sau tiệc, liên hoan hoặc khi bạn không muốn tự lái.</p><span class="tag">Nhanh · Kín đáo · Tận tâm</span></div></article>
+   <article class="card"><img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=85&w=1000" alt="Lái xe theo giờ hoặc theo ngày" loading="lazy"><div class="card-body"><h3>⏱ Theo giờ / theo ngày</h3><p>Tài xế riêng linh hoạt cho công việc, du lịch, đưa đón và lịch trình cá nhân.</p><span class="tag">300.000đ / 4 giờ · 600.000đ / 8 giờ</span></div></article>
+   <article class="card"><img src="https://images.unsplash.com/photo-1473181488821-2d23949a045a?q=85&w=1000" alt="Lái xe đường dài từ Nha Trang" loading="lazy"><div class="card-body"><h3>🗺 Đường dài / đi tỉnh</h3><p>Nha Trang – Đà Lạt, Quy Nhơn, Phú Yên, Sài Gòn và các hành trình theo thỏa thuận.</p><span class="tag">Từ 2.500đ / km</span></div></article>
+  </div>
+ </div>
+</section>
+
+<section id="gia" class="price-section">
+ <div class="container">
+  <div class="section-title"><div class="eyebrow">BẢNG GIÁ</div><h2>Rõ ràng trước khi khởi hành</h2><p>Mức giá tham khảo đang có trong website gốc; vui lòng xác nhận giá cuối cùng theo hành trình thực tế.</p></div>
+  <div class="price-wrap">
+   <div class="table-box"><table><thead><tr><th>Hạng mục</th><th>Giá tham khảo</th></tr></thead><tbody>
+    <tr><td>Nội thành 2–5 km</td><td>150.000đ – 180.000đ</td></tr>
+    <tr><td>5–10 km</td><td>200.000đ – 280.000đ</td></tr>
+    <tr><td>Sân bay Cam Ranh</td><td>350.000đ – 450.000đ</td></tr>
+    <tr><td>Theo giờ</td><td>300.000đ / 4 giờ</td></tr>
+    <tr><td>Theo ngày</td><td>600.000đ / 8 giờ</td></tr>
+    <tr><td>Đi tỉnh / đường dài</td><td>Từ 2.500đ / km</td></tr>
+   </tbody></table></div>
+   <div class="promise"><h3>Cam kết dịch vụ</h3><ul><li>✓ Báo giá trước khi đi</li><li>✓ Trao đổi rõ điểm đón – điểm trả</li><li>✓ Ưu tiên an toàn và đúng lịch</li><li>✓ Hỗ trợ đặt lịch qua điện thoại / Zalo</li><li>✓ Gọi ngay khi cần tư vấn hành trình</li></ul></div>
+  </div>
+ </div>
+</section>
+
+<section id="khuvuc" class="map-section">
+ <div class="container">
+  <div class="section-title"><div class="eyebrow">KHU VỰC</div><h2>Nha Trang & khu vực lân cận</h2><p>Bản đồ dưới đây là Google Maps thực, đang hiển thị khu vực Nha Trang. Khi có địa chỉ văn phòng/điểm tập kết chính xác, có thể thay thành ghim doanh nghiệp cụ thể.</p></div>
+  <div class="map-grid">
+   <div class="info-box"><h3>📍 Nha Trang</h3><p>Website gốc đang giới thiệu phục vụ tại các khu vực như Vĩnh Hải, Vĩnh Hòa, Vĩnh Thọ, Lộc Thọ, Tân Lập, Phước Hải, Trần Phú, An Viên và Cam Ranh.</p><div class="area-list"><span>Vĩnh Hải</span><span>Vĩnh Hòa</span><span>Vĩnh Thọ</span><span>Lộc Thọ</span><span>Tân Lập</span><span>Phước Hải</span><span>Trần Phú</span><span>An Viên</span><span>Cam Ranh</span></div><div class="actions"><a class="btn btn-gold" href="https://www.google.com/maps/search/?api=1&query=Nha+Trang+Kh%C3%A1nh+H%C3%B2a" target="_blank" rel="noopener">MỞ GOOGLE MAPS</a></div></div>
+   <div class="map"><iframe title="Google Maps Nha Trang" loading="lazy" allowfullscreen src="https://www.google.com/maps?q=Nha+Trang,+Kh%C3%A1nh+H%C3%B2a&output=embed"></iframe></div>
+  </div>
+ </div>
+</section>
+
+<section id="danhgia" class="reviews">
+ <div class="container">
+  <div class="section-title"><div class="eyebrow">KHÁCH HÀNG</div><h2>Những điều khách hàng quan tâm</h2><p>Các lời nhận xét dưới đây được giữ từ nội dung website gốc; không coi đây là đánh giá đã được Google xác minh.</p></div>
+  <div class="review-grid">
+   <div class="review"><div class="stars">★★★★★</div><p>“Tài xế đến nhanh 10 phút, lái xe rất an toàn, xe tôi về nhà nguyên vẹn. Giá hợp lý!”</p><b>— Anh Tuấn, Vĩnh Hải</b></div>
+   <div class="review"><div class="stars">★★★★★</div><p>“Đi tiệc với công ty, gọi lái xe hộ rất tiện, tài xế lịch sự, kín đáo.”</p><b>— Chị Linh, Trần Phú</b></div>
+   <div class="review"><div class="stars">★★★★★</div><p>“Đưa đón sân bay Cam Ranh đúng giờ, xe sạch sẽ, tài xế nói chuyện vui vẻ.”</p><b>— Anh Hùng, Sân bay Cam Ranh</b></div>
+  </div>
+ </div>
+</section>
+
+<section id="faq">
+ <div class="container">
+  <div class="section-title"><div class="eyebrow">FAQ</div><h2>Câu hỏi thường gặp</h2></div>
+  <div class="faq">
+   <details><summary>Đặt tài xế như thế nào?</summary><p>Bấm “Đặt tài xế ngay”, điền điểm đón, điểm đến, ngày giờ và gửi yêu cầu qua Zalo; hoặc gọi 0987 514 878.</p></details>
+   <details><summary>Có nhận chuyến ban đêm không?</summary><p>Website gốc giới thiệu phục vụ 24/7. Nên gọi trước để xác nhận tài xế tại thời điểm cần.</p></details>
+   <details><summary>Giá có cố định không?</summary><p>Bảng giá trên website là mức tham khảo. Hãy xác nhận giá cuối cùng trước khi khởi hành, nhất là chuyến đường dài hoặc có thời gian chờ.</p></details>
+   <details><summary>Có đi sân bay Cam Ranh và đi tỉnh không?</summary><p>Có. Website giới thiệu dịch vụ sân bay Cam Ranh và các chuyến đường dài/đi tỉnh.</p></details>
+  </div>
+ </div>
+</section>
+
+<section class="final-cta">
+ <div class="container"><div class="eyebrow">SẴN SÀNG ĐẶT XE?</div><h2>Đừng tự lái khi bạn không muốn hoặc không nên lái.</h2><p>Gọi điện hoặc gửi yêu cầu đặt tài xế. Chúng tôi sẽ trao đổi hành trình và báo giá trước.</p><div class="actions" style="justify-content:center"><a class="btn btn-gold" href="tel:0987514878">📞 0987 514 878</a><a class="btn btn-blue" href="https://zalo.me/0888236364">💬 Zalo 0888 236 364</a><a class="btn btn-dark" href="#datxe">✦ ĐẶT TÀI XẾ NGAY</a></div></div>
+</section>
+</main>
+
+<div class="float"><a class="fab call" href="tel:0987514878" aria-label="Gọi Lái Xe Hộ Nha Trang">📞</a><a class="fab zalo" href="https://zalo.me/0888236364" aria-label="Nhắn Zalo">Zalo</a></div>
+<div id="toast" class="toast">Đang mở Zalo với nội dung đặt xe…</div>
+
+<footer><div class="container footer-grid"><div><div class="footer-brand">LÁI XE HỘ NHA TRANG</div><div>© 2026 · Bình an – Uy tín – Trách nhiệm</div></div><div>0987 514 878 · 0982 858 940 · Zalo 0888 236 364</div></div></footer>
+
+<script>
+const dateInput=document.getElementById('date');
+const now=new Date();
+dateInput.min=new Date(now.getTime()-now.getTimezoneOffset()*60000).toISOString().slice(0,10);
+
+document.getElementById('bookingForm').addEventListener('submit',function(e){
+ e.preventDefault();
+ const name=document.getElementById('name').value.trim();
+ const phone=document.getElementById('phone').value.trim();
+ const date=document.getElementById('date').value;
+ const time=document.getElementById('time').value;
+ const service=document.getElementById('service').value;
+ const people=document.getElementById('people').value;
+ const route=document.getElementById('route').value.trim();
+ const note=document.getElementById('note').value.trim();
+ const msg=
+`YÊU CẦU ĐẶT TÀI XẾ - LÁI XE HỘ NHA TRANG
+
+Họ tên: ${name}
+SĐT: ${phone}
+Ngày: ${date}
+Giờ đón: ${time}
+Dịch vụ: ${service}
+Số khách: ${people}
+Điểm đón / điểm đến: ${route}
+Ghi chú: ${note || 'Không có'}
+
+Xin vui lòng báo giá và xác nhận tài xế.`;
+ document.getElementById('toast').classList.add('show');
+ setTimeout(()=>document.getElementById('toast').classList.remove('show'),2200);
+ if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(msg).catch(()=>{});
+  }
+  window.open('https://zalo.me/0888236364','_blank','noopener');
+});
+</script>
+</body>
+</html>
